@@ -1,18 +1,19 @@
 /* Even */
 /* Dropdown selected should have shadow */
 .form1 select{
-    box-shadow: 5px 5px 25px rgb(42, 42, 44);
+    box-shadow: 3px 3px 15px rgb(19, 19, 19);
 }
 
 /* Dropdown values should have alternate colors */
 .form1 option:nth-child(even){
-    color:rgb(222, 70, 70);
-    background-color: blue;
+    background-color: whitesmoke;
+    color: blue;
     font-weight: bold;
 }
+
 .form1 option:nth-child(odd){
-    color:rgb(66, 4, 209);
-    background-color: rgb(87, 209, 144);
+    background-color: aqua;
+    color: red;
     font-weight: bold;
 }
 
