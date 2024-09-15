@@ -1,0 +1,56 @@
+/* Even */
+/* Dropdown selected should have shadow */
+.form1 select{
+    box-shadow: 5px 5px 25px rgb(42, 42, 44);
+}
+
+/* Dropdown values should have alternate colors */
+.form1 option:nth-child(even){
+    color:rgb(222, 70, 70);
+    background-color: blue;
+    font-weight: bold;
+}
+.form1 option:nth-child(odd){
+    color:rgb(66, 4, 209);
+    background-color: rgb(87, 209, 144);
+    font-weight: bold;
+}
+
+/* Mandatory labels first letter should be bolder */
+.form1 p::first-letter{
+font-weight: bolder;
+}
+
+/* Checkbox selected should have the color of the text in red */
+input:checked+label {
+    color: red;
+}
+
+
+
+/* Odd */
+/* Achieve mandatory symbol using CSS */
+.form2 label[class="required"]::after{
+    content:"*";
+    color:red;
+}
+
+/* Onclick make blue highlight */
+.highlight:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+
+/* Mouse over label text green */
+.form2 label.required:hover {
+    color: green;
+    font-weight: bolder;
+}
+
+/* Mouse over non mandatory label text yellow */
+.form2 label.notrequired:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
