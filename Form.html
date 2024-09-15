@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <h1>Even Question</h1>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body {
+            font-family: Sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .form1 label span {
+            color: red;
+        }
+    </style>            
+</head>
+<body>
+<div class="container">
+    <form class="form1">
+        <fieldset>
+            <h2>Enquiry Form</h2>
+            <label class="required">Name <span>*</span></label><br><input type="text" name="Name"><br><br>
+            <label class="required">Email <span>*</span></label><br><input type="email" name="Email"><br><br>
+            <label>Course</label><br>
+            <select class="optional">
+                <option>Select</option>
+                <option>Fullstack</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>AWS</option>
+            </select><br><br>
+            <label>Preferred Location</label><br>
+            <select class="optional">
+                <option>Select</option>
+                <option>Anna Nagar</option>
+                <option>Besant Nagar</option>
+                <option>Porur</option>
+                <option>OMR</option>
+            </select><br><br>
+            <label>Current Location</label><br><input type="text" name="Current Location"><br><br>
+            <input type="checkbox"><label>Subscribe to Newsletter</label><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <h1>Odd Question</h1>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body {
+            font-family: Sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .form2 label span {
+            color: red;
+        }
+    </style>      
+</head>
+<body>
+<div class="container">
+    <form class="form2">
+<fieldset>
+    <h2>Application Form</h2>
+    <label for=" " class="required">Name</label><input class="highlight" type="text" name="name" id="name" required placeholder="Name"><br><br>
+    <label for=" " class="required">DOB</label><input class="highlight" type="date" name="dob" id="dob" required><br><br>
+    <label for=" " class="required">Email</label><input class="highlight" type="email" name="Email" id="Email" required placeholder="Email"><br><br>
+    <label for=" " class="required">Mobile No.</label><input class="highlight" type="tel" name="mob" id="mob" required><br><br>
+    <label for=" " class="notrequired">City</label><input class="highlight" type="text" name="city" id="city" required><br><br>
+    <input type="checkbox"><label>Agree to terms and conditions</label><br><br>
+    <button>Submit</button>       
+</div>
+</form>
+</fieldset>
+</body>
+</html>
