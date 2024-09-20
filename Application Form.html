@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <h1>Odd Question</h1>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        body {
+            font-family: Sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .form2 label span {
+            color: red;
+        }
+    </style>      
+</head>
+<body>
+<div class="container">
+    <form action="connect.php" method="post">
+<fieldset>
+    <h2>Application Form</h2>
+    <label for=" " class="required">Name</label><input class="highlight" type="text" name="name" id="name" required placeholder="Name"><br><br>
+    <label for=" " class="required">DOB</label><input class="highlight" type="date" name="dob" id="dob" required><br><br>
+    <label for=" " class="required">Email</label><input class="highlight" type="email" name="Email" id="Email" required placeholder="Email"><br><br>
+    <label for=" " class="required">Mobile No.</label><input class="highlight" type="tel" name="mob" id="mob" required><br><br>
+    <label for=" " class="notrequired">City</label><input class="highlight" type="text" name="city" id="city" required><br><br>
+    <input type="checkbox"><label>Agree to terms and conditions</label><br><br>
+    <button>Submit</button>       
+</div>
+</form>
+</fieldset>
+</body>
+</html>

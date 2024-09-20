@@ -1,0 +1,27 @@
+
+/* Odd */
+/* Achieve mandatory symbol using CSS */
+.form2 label[class="required"]::after{
+    content:"*";
+    color:red;
+}
+
+/* Onclick make blue highlight */
+.highlight:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+
+/* Mouse over label text green */
+.form2 label.required:hover {
+    color: green;
+    font-weight: bolder;
+}
+
+/* Mouse over non mandatory label text yellow */
+.form2 label.notrequired:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
