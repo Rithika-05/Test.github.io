@@ -110,13 +110,11 @@ color:white;
 }
 
 
-
 .container4{
-    display:flex;
-    width:100px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    align-items: center;
+    color: rgb(185, 22, 104);
 }
 .box{
     
